@@ -168,3 +168,75 @@
   display: block;
   margin: 0 auto;
 }
+
+
+/* -Media query for difrent type of device----------------------------------------- */
+
+
+
+/* Media query for smaller screens (phones) */
+@media screen and (max-width: 576px) {
+  .search-container {
+    background: none;
+  }
+  .search-input {
+    margin-left: -8rem;
+    width: 170px;
+    padding: 6px;
+    font-size: 12px;
+  }
+  
+  /* Styles for the search button */
+  .search-button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+  
+  .pagination-buttons {
+    bottom: 10px; 
+    left: 50%; 
+    padding: 6px;
+    
+  }
+  .pagination-buttons button {
+    padding: 2px 5px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  .image-list {
+    gap: 0;
+  }
+}
+
+/* Media query for medium-sized screens (tablets) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .search-container {
+    
+  }
+
+ 
+}
+
+/* Media query for larger screens (desktops) */
+@media screen and (min-width: 993px) {
+  .search-container {
+    
+  }
+
+}
+
+/* Media query for landscape orientation */
+@media screen and (orientation: landscape) {
+  .search-container {
+    
+  }
+
+  
+}
+
+/* Media query for portrait orientation */
+@media screen and (orientation: portrait) {
+  .search-container {
+    
+  }
+}
